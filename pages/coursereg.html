@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Registration</title>
+</head>
+<body>
+
+<h1 align="center">Course Registration Form</h1>
+
+<form action="#" method="post">
+
+<table cellpadding="8">
+
+<tr>
+    <td>Student Name</td>
+    <td><input type="text" name="name" required></td>
+</tr>
+
+<tr>
+    <td>Student ID</td>
+    <td><input type="text" name="id" required></td>
+</tr>
+
+<tr>
+    <td>Email</td>
+    <td><input type="email" name="email"></td>
+</tr>
+
+<tr>
+    <td>Mobile Number</td>
+    <td><input type="tel" name="mobile"></td>
+</tr>
+
+<tr>
+    <td>Branch</td>
+    <td>
+        <select name="branch">
+            <option>Computer Engineering</option>
+            <option>Information Technology</option>
+            <option>Mechanical Engineering</option>
+            <option>Civil Engineering</option>
+            <option>Electrical Engineering</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>Semester</td>
+    <td>
+        <select name="semester">
+            <option>Semester 1</option>
+            <option>Semester 2</option>
+            <option>Semester 3</option>
+            <option>Semester 4</option>
+            <option>Semester 5</option>
+            <option>Semester 6</option>
+            <option>Semester 7</option>
+            <option>Semester 8</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>Course Selection</td>
+    <td>
+        <input type="checkbox" name="course" value="WDF"> WDF <br>
+        <input type="checkbox" name="course" value="OOP"> OOP <br>
+        <input type="checkbox" name="course" value="FDSA"> FDSA <br>
+        <input type="checkbox" name="course" value="FCN"> FCN <br>
+        <input type="checkbox" name="course" value="Mathematics"> Mathematics
+    </td>
+</tr>
+
+<tr>
+    <td>Study Mode</td>
+    <td>
+        <input type="radio" name="mode" value="Regular"> Regular
+        <input type="radio" name="mode" value="Online"> Online
+    </td>
+</tr>
+
+<tr>
+    <td>Address</td>
+    <td>
+        <textarea name="address" rows="4" cols="30"></textarea>
+    </td>
+</tr>
+
+<tr>
+    <td>Date</td>
+    <td><input type="date" name="date"></td>
+</tr>
+
+<tr>
+    <td colspan="2" align="center">
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+        <input type="button" value="Back" onclick="history.back()">
+    </td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
