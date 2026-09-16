@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	color: #243447;
+	background-color: #f4f8fa;
+}
+
+h1 {
+	padding: 15px;
+	color: white;
+	background-color: #176b87;
+}
+
+h3 {
+	max-width: 800px;
+	margin: 30px auto 10px;
+	color: #176b87;
+}
+
+ul {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px 40px;
+	background-color: white;
+	border: 1px solid #b9ccd5;
+}
+
+h2 {
+	color: #607782;
+	text-align: center;
+}
+
+button {
+	padding: 10px 25px;
+	color: white;
+	background-color: #176b87;
+	border: 0;
+}

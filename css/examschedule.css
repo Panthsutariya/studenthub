@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	color: #243447;
+	background-color: #f4f8fa;
+}
+
+h1 {
+	padding: 15px;
+	color: white;
+	background-color: #176b87;
+}
+
+table {
+	width: 90%;
+	margin: 20px auto;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+th,
+td {
+	padding: 12px;
+	text-align: center;
+	border: 1px solid #aebfc7;
+}
+
+th {
+	color: white;
+	background-color: #176b87;
+}
+
+button {
+	padding: 10px 25px;
+	color: white;
+	background-color: #176b87;
+	border: 0;
+}
+
+@media (max-width: 600px) {
+	body {
+		padding: 10px;
+		overflow-x: auto;
+	}
+
+	table {
+		width: 700px;
+	}
+}

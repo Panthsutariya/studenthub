@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	background-color: #f4f8fa;
+}
+
+h1 {
+	padding: 15px;
+	color: white;
+	background-color: #176b87;
+}
+
+form {
+	max-width: 700px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: white;
+	border: 1px solid #b9ccd5;
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	padding: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #9db3bd;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	margin: 5px;
+	padding: 10px 18px;
+	color: white;
+	background-color: #176b87;
+	border: 0;
+	cursor: pointer;
+}
+
+@media (max-width: 600px) {
+	body {
+		padding: 10px;
+	}
+
+	td {
+		display: block;
+		width: 100%;
+	}
+}

@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	color: #243447;
+	background-color: #f4f8fa;
+}
+
+h1 {
+	padding: 15px;
+	color: white;
+	background-color: #176b87;
+}
+
+table {
+	width: 85%;
+	margin: 20px auto;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+th,
+td {
+	padding: 12px;
+	text-align: left;
+	border: 1px solid #aebfc7;
+}
+
+th {
+	color: white;
+	background-color: #176b87;
+}
+
+tr:nth-child(even) {
+	background-color: #e8f1f5;
+}
+
+@media (max-width: 600px) {
+	body {
+		padding: 10px;
+		overflow-x: auto;
+	}
+
+	table {
+		width: 650px;
+	}
+}
