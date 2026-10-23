@@ -204,7 +204,7 @@ ob_start();
       </tr>
       <tr>
         <td><strong>GitHub Repository:</strong></td>
-        <td><code>https://github.com/Dev-Jay99/WDF</code></td>
+        <td><code>https://github.com/Panthsutariya/studenthub</code></td>
       </tr>
     </table>
   </div>
@@ -263,7 +263,7 @@ During Practical 1, the primary challenge was translating the broad idea of a St
 </ul>
 
 <div class="repo-footer">
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 <!-- ================= PRACTICAL 2 ================= -->
@@ -305,7 +305,7 @@ During Practical 2, the main challenge was building the portal strictly using un
 </ul>
 
 <div class="repo-footer">
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 <!-- ================= PRACTICAL 3 ================= -->
@@ -348,7 +348,7 @@ In Practical 3, moving the raw HTML into a structured directory architecture (PA
 </ul>
 
 <div class="repo-footer">
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 <!-- ================= PRACTICAL 4 ================= -->
@@ -406,7 +406,7 @@ In Practical 3, moving the raw HTML into a structured directory architecture (PA
 
 <div class="repo-footer">
   <strong>Conclusion:</strong> The interactive UI featuresâ€”including responsive hamburger navigation, persistent dark mode, and modal popupsâ€”were successfully integrated using JavaScript.<br>
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 <!-- ================= PRACTICAL 5 ================= -->
@@ -464,7 +464,7 @@ A student registration form was built with HTML5 input types and client-side val
 
 <div class="repo-footer">
   <strong>Conclusion:</strong> We successfully built a secure student registration form with HTML5 and JavaScript Regex validation, client-side error handling, and canvas CAPTCHA.<br>
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 <!-- ================= PRACTICAL 6 ================= -->
@@ -522,7 +522,7 @@ Dynamic data consumption was built in <code>js/dynamic-lists.js</code> consuming
 
 <div class="repo-footer">
   <strong>Conclusion:</strong> The student portal was successfully enhanced with dynamic JSON rendering using Fetch API, supporting live search, category filtering, sorting, and pagination.<br>
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 <!-- ================= PRACTICAL 7 ================= -->
@@ -580,7 +580,7 @@ Implemented server-side form processing via <code>contact.php</code>, <code>cont
 
 <div class="repo-footer">
   <strong>Conclusion:</strong> Server-side form processing with robust sanitization and dual CSV/JSON file storage was successfully implemented.<br>
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 <!-- ================= PRACTICAL 8 ================= -->
@@ -632,7 +632,7 @@ Engineered the relational database in <code>sql/studenthub.sql</code> and dual c
 
 <div class="repo-footer">
   <strong>Conclusion:</strong> StudentHub database was successfully designed using MySQL and connected with PHP PDO and MySQLi prepared statements.<br>
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 <!-- ================= PRACTICAL 9 ================= -->
@@ -682,7 +682,7 @@ Implemented secure user account creation in <code>register.php</code>:
 
 <div class="repo-footer">
   <strong>Conclusion:</strong> The practical successfully implemented secure user registration using PHP, MySQLi, Bcrypt hashing, and duplicate checks.<br>
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 <!-- ================= PRACTICAL 10 ================= -->
@@ -746,7 +746,7 @@ Authentication and session management were implemented across <code>login.php</c
 
 <div class="repo-footer">
   <strong>Conclusion:</strong> Secure login and logout functionality with role-based routing, session regeneration, timeout, and remember-me tokens was successfully implemented.<br>
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 <!-- ================= PRACTICAL 11 ================= -->
@@ -799,7 +799,7 @@ Engineered complete student management in <code>students.php</code>, <code>stude
 
 <div class="repo-footer">
   <strong>Conclusion:</strong> The practical successfully implemented a complete Student Management CRUD module with search, filter, pagination, soft-delete, and CSV export.<br>
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 <!-- ================= PRACTICAL 12 ================= -->
@@ -854,7 +854,7 @@ Event lifecycle management was built in <code>events.php</code>, <code>event-add
 
 <div class="repo-footer">
   <strong>Conclusion:</strong> Event Management CRUD with validated file uploads, secure image renaming, and student registration was successfully implemented.<br>
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 <!-- ================= PRACTICAL 13 ================= -->
@@ -911,7 +911,7 @@ Decoupled API endpoints and single-page application interactivity were implement
 
 <div class="repo-footer">
   <strong>Conclusion:</strong> Fully asynchronous CRUD operations with RESTful JSON API endpoints, Fetch API, and debounced search were successfully implemented with zero page reloads.<br>
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 <!-- ================= PRACTICAL 14 ================= -->
@@ -971,7 +971,7 @@ Engineered the administrative control center in <code>admin/dashboard.php</code>
 
 <div class="repo-footer">
   <strong>Conclusion:</strong> Role-based Admin Dashboard with real-time KPI metrics, dynamic menu switching, user status moderation, and audit logging was successfully implemented.<br>
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 <!-- ================= PRACTICAL 15 ================= -->
@@ -1032,7 +1032,7 @@ The final integration harmonized all 14 previous practicals into a single deploy
 
 <div class="repo-footer">
   <strong>Conclusion:</strong> The StudentHub portal was successfully integrated, tested, and deployed locally using XAMPP. Navigation, authentication, database operations, security checks, and AJAX functionality were verified.<br>
-  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+  <strong>Repository Link:</strong> <code>https://github.com/Panthsutariya/studenthub</code>
 </div>
 
 </body>

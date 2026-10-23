@@ -15,7 +15,7 @@
 | **Student Name** | Jay Bhensdadiya |
 | **Student Enrollment ID** | 23DCE128 / 23DCE426 |
 | **Academic Department** | Computer Engineering / Information Technology |
-| **Repository Link** | `https://github.com/Dev-Jay99/WDF` |
+| **Repository Link** | `https://github.com/Panthsutariya/studenthub` |
 | **Local Deployment Path** | `c:\xampp\htdocs\studenthub\` |
 
 ---
@@ -52,7 +52,7 @@ Translating the extensive requirements of a campus portal into clean, non-confli
 - Mastered Git repository setup and professional project folder structuring.
 
 **Conclusion**: Practical 1 successfully established the planning, sitemap, wireframes, and GitHub repository for the StudentHub portal.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
 
 ---
 
@@ -78,7 +78,7 @@ Develop static HTML5 skeletons for at least 10 StudentHub pages such as Home, Ab
 Replacing older non-semantic markup with pure semantic HTML5 tags while ensuring keyboard tab navigation flows logically without visual styling. Gained deep mastery of accessible document structures and ARIA landmarks.
 
 **Conclusion**: All 10 StudentHub core pages were successfully built with clean, accessible, semantic HTML5 structure.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
 
 ---
 
@@ -105,7 +105,7 @@ Design responsive layouts for Home, About, Registration, Dashboard, and Events p
 Preventing card height stretching across unequal content lengths; debugging flexbox wrapping bugs on mobile input fields; achieving clean typography contrast across both light and dark backgrounds.
 
 **Conclusion**: Fully responsive UI layouts for Home, About, Register, Dashboard, and Events were successfully implemented with pure CSS Grid and Flexbox.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
 
 ---
 
@@ -133,7 +133,7 @@ Add dynamic UI components such as collapsible FAQ, modal popup, image/content sl
 Managing transition timing for accordion expand/collapse using dynamic scrollHeight; preventing page background scroll when modals are open; persisting theme state prior to initial paint.
 
 **Conclusion**: Comprehensive client-side interactivity—including dark theme switching, mobile drawer navigation, modal popups, and accordion FAQ—was successfully implemented.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
 
 ---
 
@@ -164,7 +164,7 @@ Create a student registration form with HTML5 input types and JavaScript validat
 Designing regular expressions that enforce security standards without rejecting valid student names; generating readable yet noise-protected canvas CAPTCHA codes.
 
 **Conclusion**: Robust frontend validation with regular expressions, dynamic password meter, and canvas CAPTCHA was successfully completed.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
 
 ---
 
@@ -192,7 +192,7 @@ Display event lists, student profiles, notices, or FAQs from external JSON files
 Synchronizing simultaneous search queries, category filters, and sorting controls without race conditions; handling pagination state when filters yield zero results.
 
 **Conclusion**: External JSON consumption using Fetch API with live search, category filter, sorting, pagination, and offline caching was successfully achieved.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
 
 ---
 
@@ -219,7 +219,7 @@ Process submitted registration/contact form data using PHP. Validate and sanitiz
 Safely reading, appending, and re-writing JSON arrays concurrently without data corruption; properly formatting multi-line textarea messages into standard RFC 4180 CSV rows.
 
 **Conclusion**: Secure server-side form processing storing data safely in both JSON and CSV formats with CSRF protection was successfully implemented.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
 
 ---
 
@@ -248,7 +248,7 @@ Design the database for StudentHub with students, events and registrations. Crea
 Establishing composite unique keys preventing double event registrations; designing foreign key cascades without circular dependencies.
 
 **Conclusion**: Normalized MySQL schema design with 5 relational tables, seed data, and secure MySQLi/PDO connections was successfully established.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
 
 ---
 
@@ -275,7 +275,7 @@ Implement secure user registration by inserting user details into MySQL using My
 Synchronizing foreign-key-linked inserts across two tables within a single atomic database transaction; ensuring clean user feedback on collision errors.
 
 **Conclusion**: Secure user registration featuring Bcrypt password hashing, duplicate verification, and database transactions was successfully implemented.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
 
 ---
 
@@ -305,7 +305,7 @@ Develop secure login and logout functionality using PHP sessions. Verify passwor
 Configuring secure session cookie attributes (HttpOnly, SameSite) across local XAMPP environments; managing state transitions during auto-logout timeout events.
 
 **Conclusion**: Secure authentication with role-based routing, session regeneration, 15-minute inactivity timeout, and remember-me tokens was successfully completed.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
 
 ---
 
@@ -333,7 +333,7 @@ Create a student management module to add, view, edit, delete, search and filter
 Dynamically constructing parameterized SQL statements with variable WHERE conditions; building a reliable CSV export streaming directly to output buffers.
 
 **Conclusion**: A complete Student Management CRUD module featuring search, multi-filter, pagination, modal deletion, and CSV export was successfully completed.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
 
 ---
 
@@ -362,7 +362,7 @@ Develop event management functionality for admin users. Admin can add, view, upd
 Preventing malicious PHP file execution in upload directories; handling file cleanup on update/delete without leaving orphaned image files.
 
 **Conclusion**: Event Management CRUD with strict file upload validation, secure image storage, and registration capabilities was successfully implemented.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
 
 ---
 
@@ -393,7 +393,7 @@ Create simple PHP JSON API endpoints for events or students and consume them usi
 Reading raw JSON input from `php://input` for PUT and DELETE requests; synchronizing in-memory DOM table rows with asynchronous server responses.
 
 **Conclusion**: Fully asynchronous CRUD operations with RESTful JSON API endpoints, Fetch API, and debounced search were successfully implemented with zero page reloads.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
 
 ---
 
@@ -423,7 +423,7 @@ Develop an admin dashboard that displays user statistics, student count, event c
 Writing high-performance SQL aggregation queries; designing an immutable security audit logging architecture for system traceability.
 
 **Conclusion**: Role-based Admin Dashboard with real-time KPI metrics, dynamic menu switching, user status moderation, and audit trail logging was successfully implemented.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
 
 ---
 
@@ -455,4 +455,4 @@ Integrate all modules into a single deployable StudentHub portal. Verify navigat
 Harmonizing frontend components, AJAX endpoints, and stateful PHP sessions into a unified, secure system. Gained end-to-end mastery of modern full-stack web engineering.
 
 **Conclusion**: The StudentHub portal was successfully integrated, tested, and deployed locally under XAMPP. All 15 practical requirements of the CHARUSAT ITUE203 syllabus have been completely fulfilled.  
-**Repository Link**: `https://github.com/Dev-Jay99/WDF`
+**Repository Link**: `https://github.com/Panthsutariya/studenthub`
