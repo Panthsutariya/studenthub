@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "Hackathon FTE 2026",
+    "category": "Technical",
+    "date": "2026-11-15 09:00",
+    "location": "Seminar Hall 1, FTE Building",
+    "capacity": 150,
+    "status": "Open",
+    "description": "24-hour national hackathon focused on AI and Full Stack Web Solutions."
+  },
+  {
+    "id": 2,
+    "title": "Spoural Cultural Fest",
+    "category": "Cultural",
+    "date": "2026-12-05 17:00",
+    "location": "University Central Ground",
+    "capacity": 500,
+    "status": "Open",
+    "description": "Annual festival featuring dance, music, drama, and fine arts."
+  },
+  {
+    "id": 3,
+    "title": "Web & Cloud Architecture Workshop",
+    "category": "Workshop",
+    "date": "2026-11-02 10:00",
+    "location": "Lab 302, Computer Dept",
+    "capacity": 60,
+    "status": "Open",
+    "description": "Hands-on session on modern PHP, Docker containers, and microservices."
+  },
+  {
+    "id": 4,
+    "title": "Inter-Department Cricket Tournament",
+    "category": "Sports",
+    "date": "2026-11-20 08:30",
+    "location": "Sports Complex Oval",
+    "capacity": 80,
+    "status": "Open",
+    "description": "Annual department cricket tournament for faculty and students."
+  },
+  {
+    "id": 5,
+    "title": "AI & Robotics Colloquium",
+    "category": "Seminar",
+    "date": "2026-11-28 11:00",
+    "location": "Auditorium FTE",
+    "capacity": 200,
+    "status": "Open",
+    "description": "Industry experts discuss autonomous robots and generative intelligence."
+  },
+  {
+    "id": 6,
+    "title": "Alumni Mentorship Conclave",
+    "category": "Seminar",
+    "date": "2026-12-12 14:00",
+    "location": "Conference Room B",
+    "capacity": 100,
+    "status": "Open",
+    "description": "Connect with CHARUSAT alumni working in leading global tech companies."
+  },
+  {
+    "id": 7,
+    "title": "Cybersecurity & Ethical Hacking Bootcamp",
+    "category": "Workshop",
+    "date": "2026-11-08 09:30",
+    "location": "Networking Lab 201",
+    "capacity": 50,
+    "status": "Open",
+    "description": "Deep dive into web application security, SQL injection defenses, and pen testing."
+  },
+  {
+    "id": 8,
+    "title": "Charusat Table Tennis Championship",
+    "category": "Sports",
+    "date": "2026-11-18 16:00",
+    "location": "Indoor Sports Arena",
+    "capacity": 64,
+    "status": "Open",
+    "description": "Singles and doubles table tennis knockout tournament."
+  },
+  {
+    "id": 9,
+    "title": "DevOps & CI/CD Pipeline Masterclass",
+    "category": "Technical",
+    "date": "2026-11-22 13:30",
+    "location": "Lab 105, IT Dept",
+    "capacity": 45,
+    "status": "Open",
+    "description": "Automating builds, testing, and deployments with GitHub Actions and Docker."
+  },
+  {
+    "id": 10,
+    "title": "Photography & Filmmaking Workshop",
+    "category": "Cultural",
+    "date": "2026-12-01 10:00",
+    "location": "Media Center Studio",
+    "capacity": 40,
+    "status": "Open",
+    "description": "Learn visual storytelling, framing, color grading, and video editing."
+  },
+  {
+    "id": 11,
+    "title": "Competitive Coding Sprint",
+    "category": "Technical",
+    "date": "2026-11-10 15:00",
+    "location": "Online / HackerRank",
+    "capacity": 300,
+    "status": "Open",
+    "description": "Speed coding contest focusing on algorithms, time complexity, and data structures."
+  },
+  {
+    "id": 12,
+    "title": "Mobile App Dev with Flutter",
+    "category": "Workshop",
+    "date": "2026-12-08 10:30",
+    "location": "Smart Classroom 4",
+    "capacity": 55,
+    "status": "Open",
+    "description": "Build cross-platform iOS and Android mobile apps in one day."
+  },
+  {
+    "id": 13,
+    "title": "Annual Badminton Trophy",
+    "category": "Sports",
+    "date": "2026-11-25 09:00",
+    "location": "Sports Complex Court 1-3",
+    "capacity": 50,
+    "status": "Open",
+    "description": "Inter-college badminton competition across mixed singles and doubles."
+  },
+  {
+    "id": 14,
+    "title": "Open Source Contribution Day",
+    "category": "Technical",
+    "date": "2026-12-15 11:00",
+    "location": "Lab 203, CE Dept",
+    "capacity": 70,
+    "status": "Open",
+    "description": "Collaborative sprint on open source GitHub projects with mentor guidance."
+  },
+  {
+    "id": 15,
+    "title": "Entrepreneurship & Startup Pitch Fest",
+    "category": "Seminar",
+    "date": "2026-12-20 10:00",
+    "location": "Incubation Center FTE",
+    "capacity": 120,
+    "status": "Open",
+    "description": "Present business ideas to angel investors and get incubation support."
+  },
+  {
+    "id": 16,
+    "title": "Literary Debate & Model United Nations",
+    "category": "Cultural",
+    "date": "2026-12-22 14:00",
+    "location": "Senate Hall",
+    "capacity": 90,
+    "status": "Open",
+    "description": "Parliamentary debate competition on technology policies and international affairs."
+  }
+]

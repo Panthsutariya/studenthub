@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "category": "Academics",
+    "question": "How do I register for elective courses?",
+    "answer": "Navigate to the Course Registration section, review prerequisite courses, select your branch electives, and submit before the announced deadline."
+  },
+  {
+    "id": 2,
+    "category": "Academics",
+    "question": "What is the minimum attendance requirement for semester exams?",
+    "answer": "A minimum of 75% attendance is required in each course theory and laboratory component as per university academic regulations."
+  },
+  {
+    "id": 3,
+    "category": "Examinations",
+    "question": "Where can I download my examination hall ticket?",
+    "answer": "Hall tickets are released one week prior to mid-term and university end-semester examinations under the Exam Schedule section."
+  },
+  {
+    "id": 4,
+    "category": "Examinations",
+    "question": "How do I apply for re-evaluation or paper checking?",
+    "answer": "Submit a re-evaluation request through the student portal within 7 days of result declaration with prescribed verification fees."
+  },
+  {
+    "id": 5,
+    "category": "Hostels",
+    "question": "How do I apply for hostel accommodation?",
+    "answer": "Hostel room allocation opens before every academic term. Apply through the Hostels tab with your student enrollment ID."
+  },
+  {
+    "id": 6,
+    "category": "Hostels",
+    "question": "What are the hostel check-in hours and curfew rules?",
+    "answer": "Hostel premises follow an entry cutoff at 9:00 PM on weekdays and 9:30 PM on weekends. Extended leave requires warden approval."
+  },
+  {
+    "id": 7,
+    "category": "Accounts",
+    "question": "How can I pay tuition fees online?",
+    "answer": "Fee payment links are enabled in the Student Profile section supporting Net Banking, UPI, and Debit/Credit Cards."
+  },
+  {
+    "id": 8,
+    "category": "Accounts",
+    "question": "How do I obtain an official fee receipt for scholarship or tax deduction?",
+    "answer": "Download electronically signed receipts anytime from the Payment History subsection in your profile."
+  },
+  {
+    "id": 9,
+    "category": "Library",
+    "question": "How many books can an undergraduate student issue?",
+    "answer": "Undergraduate students can issue up to 4 books for a loan duration of 14 days, renewable once through the library OPAC."
+  },
+  {
+    "id": 10,
+    "category": "Library",
+    "question": "How do I access IEEE and ACM digital research databases off-campus?",
+    "answer": "Use your CHARUSAT university email credentials via the RemoteEzProxy portal available on the university library page."
+  },
+  {
+    "id": 11,
+    "category": "Technical",
+    "question": "How can I reset my StudentHub portal password?",
+    "answer": "Click on 'Forgot Password' on the login screen or ask your department administrator to send a reset token to your registered email."
+  },
+  {
+    "id": 12,
+    "category": "Technical",
+    "question": "Why is my account locked after multiple login attempts?",
+    "answer": "Accounts are locked for 15 minutes after 5 unsuccessful login attempts to prevent brute force attacks. Contact admin if urgent."
+  },
+  {
+    "id": 13,
+    "category": "Events",
+    "question": "How do I participate in campus hackathons or sports competitions?",
+    "answer": "Visit the Events section, browse upcoming open events, and click 'Register Now' while seats are available."
+  },
+  {
+    "id": 14,
+    "category": "Events",
+    "question": "Will I receive an e-certificate for attending technical workshops?",
+    "answer": "Yes, verified attendees can download their verifiable QR-coded completion certificates from the Events participation log."
+  },
+  {
+    "id": 15,
+    "category": "Placement",
+    "question": "When does campus placement registration start for final year students?",
+    "answer": "Placement cell registration starts at the beginning of the 7th semester for all eligible students maintaining at least 6.5 CGPA."
+  },
+  {
+    "id": 16,
+    "category": "Placement",
+    "question": "How do I update my resume and internship experience in the database?",
+    "answer": "Log in to Student Profile, navigate to the Career & Resume tab, and upload your latest PDF resume."
+  }
+]

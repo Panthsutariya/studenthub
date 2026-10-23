@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "student_number": "23IT001",
+    "name": "Aarav Patel",
+    "branch": "Information Technology",
+    "year": "3rd Year",
+    "email": "aarav.patel@charusat.edu.in",
+    "gender": "Male",
+    "status": "Active"
+  },
+  {
+    "id": 2,
+    "student_number": "23IT002",
+    "name": "Diya Sharma",
+    "branch": "Information Technology",
+    "year": "3rd Year",
+    "email": "diya.sharma@charusat.edu.in",
+    "gender": "Female",
+    "status": "Active"
+  },
+  {
+    "id": 3,
+    "student_number": "23CE003",
+    "name": "Rohan Mehta",
+    "branch": "Computer Engineering",
+    "year": "3rd Year",
+    "email": "rohan.mehta@charusat.edu.in",
+    "gender": "Male",
+    "status": "Active"
+  },
+  {
+    "id": 4,
+    "student_number": "23CE004",
+    "name": "Ananya Desai",
+    "branch": "Computer Engineering",
+    "year": "2nd Year",
+    "email": "ananya.desai@charusat.edu.in",
+    "gender": "Female",
+    "status": "Active"
+  },
+  {
+    "id": 5,
+    "student_number": "23IT005",
+    "name": "Kavya Joshi",
+    "branch": "Information Technology",
+    "year": "2nd Year",
+    "email": "kavya.joshi@charusat.edu.in",
+    "gender": "Female",
+    "status": "Active"
+  },
+  {
+    "id": 6,
+    "student_number": "24IT006",
+    "name": "Dev Shah",
+    "branch": "Information Technology",
+    "year": "1st Year",
+    "email": "dev.shah@charusat.edu.in",
+    "gender": "Male",
+    "status": "Active"
+  },
+  {
+    "id": 7,
+    "student_number": "22CE007",
+    "name": "Isha Trivedi",
+    "branch": "Computer Engineering",
+    "year": "4th Year",
+    "email": "isha.trivedi@charusat.edu.in",
+    "gender": "Female",
+    "status": "Active"
+  },
+  {
+    "id": 8,
+    "student_number": "23EC008",
+    "name": "Harsh Varma",
+    "branch": "Electronics & Comm.",
+    "year": "3rd Year",
+    "email": "harsh.varma@charusat.edu.in",
+    "gender": "Male",
+    "status": "Active"
+  },
+  {
+    "id": 9,
+    "student_number": "23ME009",
+    "name": "Nidhi Dave",
+    "branch": "Mechanical Engineering",
+    "year": "3rd Year",
+    "email": "nidhi.dave@charusat.edu.in",
+    "gender": "Female",
+    "status": "Active"
+  },
+  {
+    "id": 10,
+    "student_number": "24CE010",
+    "name": "Yash Parikh",
+    "branch": "Computer Engineering",
+    "year": "1st Year",
+    "email": "yash.parikh@charusat.edu.in",
+    "gender": "Male",
+    "status": "Active"
+  },
+  {
+    "id": 11,
+    "student_number": "22IT011",
+    "name": "Pooja Bhatt",
+    "branch": "Information Technology",
+    "year": "4th Year",
+    "email": "pooja.bhatt@charusat.edu.in",
+    "gender": "Female",
+    "status": "Active"
+  },
+  {
+    "id": 12,
+    "student_number": "23CL012",
+    "name": "Siddharth Patel",
+    "branch": "Civil Engineering",
+    "year": "3rd Year",
+    "email": "siddharth.patel@charusat.edu.in",
+    "gender": "Male",
+    "status": "Active"
+  },
+  {
+    "id": 13,
+    "student_number": "23IT013",
+    "name": "Tanvi Rawal",
+    "branch": "Information Technology",
+    "year": "3rd Year",
+    "email": "tanvi.rawal@charusat.edu.in",
+    "gender": "Female",
+    "status": "Active"
+  },
+  {
+    "id": 14,
+    "student_number": "23CE014",
+    "name": "Manan Kothari",
+    "branch": "Computer Engineering",
+    "year": "2nd Year",
+    "email": "manan.kothari@charusat.edu.in",
+    "gender": "Male",
+    "status": "Active"
+  },
+  {
+    "id": 15,
+    "student_number": "24IT015",
+    "name": "Rhea Soni",
+    "branch": "Information Technology",
+    "year": "1st Year",
+    "email": "rhea.soni@charusat.edu.in",
+    "gender": "Female",
+    "status": "Active"
+  },
+  {
+    "id": 16,
+    "student_number": "22CE016",
+    "name": "Karan Chauhan",
+    "branch": "Computer Engineering",
+    "year": "4th Year",
+    "email": "karan.chauhan@charusat.edu.in",
+    "gender": "Male",
+    "status": "Active"
+  }
+]
