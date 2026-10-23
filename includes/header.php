@@ -12,9 +12,10 @@ require_once __DIR__ . '/auth.php';
 
 $pageTitle = $pageTitle ?? 'StudentHub - Academic & Campus Portal';
 $activePage = $activePage ?? '';
+$currentTheme = $_GET['theme'] ?? 'light';
 ?>
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="<?= htmlspecialchars($currentTheme) ?>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
