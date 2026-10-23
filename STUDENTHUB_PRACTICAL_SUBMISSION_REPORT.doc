@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="utf-8">
+<title>StudentHub - ITUE203 Laboratory Manual (Practicals 1 to 15)</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #1a1a1a;
+    margin: 40px;
+  }
+  .cover-page {
+    text-align: center;
+    border: 3px double #1e3a8a;
+    padding: 60px 40px;
+    margin-bottom: 50px;
+    page-break-after: always;
+  }
+  .univ-header {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #1e3a8a;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  .dept-header {
+    font-size: 14pt;
+    color: #334155;
+    margin-bottom: 30px;
+  }
+  .report-title {
+    font-size: 24pt;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 30px 0 10px 0;
+  }
+  .report-subtitle {
+    font-size: 14pt;
+    color: #0284c7;
+    margin-bottom: 40px;
+  }
+  .student-box {
+    margin: 40px auto;
+    width: 80%;
+    border: 1px solid #cbd5e1;
+    background-color: #f8fafc;
+    padding: 20px;
+    text-align: left;
+    border-radius: 6px;
+  }
+  .student-box table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .student-box td {
+    padding: 6px 12px;
+    font-size: 11pt;
+  }
+  h1.practical-title {
+    font-size: 16pt;
+    color: #1e3a8a;
+    border-bottom: 2px solid #1e3a8a;
+    padding-bottom: 6px;
+    margin-top: 40px;
+    page-break-before: always;
+  }
+  h2.section-heading {
+    font-size: 13pt;
+    color: #0369a1;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    border-left: 4px solid #0369a1;
+    padding-left: 8px;
+  }
+  p, li {
+    font-size: 11pt;
+    text-align: justify;
+  }
+  ul, ol {
+    margin-top: 6px;
+    margin-bottom: 12px;
+    padding-left: 25px;
+  }
+  li {
+    margin-bottom: 4px;
+  }
+  .aim-box {
+    background-color: #f0fdf4;
+    border-left: 5px solid #16a34a;
+    padding: 12px 16px;
+    margin: 15px 0;
+    font-size: 11pt;
+  }
+  .aim-title {
+    font-weight: bold;
+    color: #15803d;
+    margin-bottom: 4px;
+  }
+  .qa-box {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 12px 16px;
+    margin: 12px 0;
+    border-radius: 4px;
+  }
+  .qa-q {
+    font-weight: bold;
+    color: #0f172a;
+    margin-bottom: 4px;
+  }
+  .qa-a {
+    color: #334155;
+    margin-bottom: 0;
+  }
+  .table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+  }
+  .table-custom th, .table-custom td {
+    border: 1px solid #cbd5e1;
+    padding: 8px 12px;
+    font-size: 10pt;
+    text-align: left;
+  }
+  .table-custom th {
+    background-color: #f1f5f9;
+    color: #1e293b;
+    font-weight: 600;
+  }
+  .badge-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 9pt;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #dbeafe;
+    color: #1e40af;
+  }
+  .repo-footer {
+    background-color: #f1f5f9;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 10pt;
+    margin-top: 15px;
+  }
+  code {
+    font-family: Consolas, monospace;
+    background-color: #f1f5f9;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #b91c1c;
+    font-size: 9.5pt;
+  }
+</style>
+</head>
+<body>
+
+<!-- ================= COVER PAGE ================= -->
+<div class="cover-page">
+  <div class="univ-header">Charotar University of Science and Technology (CHARUSAT)</div>
+  <div class="dept-header">Faculty of Technology and Engineering (FTE) / DEPSTAR<br>Department of Computer Science & Engineering / Information Technology</div>
+  
+  <hr style="border: 0; border-top: 2px solid #1e3a8a; margin: 25px 0;">
+  
+  <div class="report-title">LABORATORY PRACTICAL MANUAL</div>
+  <div class="report-subtitle">Web Development Frameworks (ITUE203) &bull; Semester 3 (Odd 2026-27)</div>
+  
+  <p style="font-size: 13pt; font-weight: 600; margin-top: 20px;">
+    Term Work Submission: Comprehensive Report for Practicals 1 through 15
+  </p>
+  
+  <div class="student-box">
+    <table>
+      <tr>
+        <td style="width: 35%;"><strong>Project Portal:</strong></td>
+        <td><strong>StudentHub Academic & Campus Portal</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Course Code & Name:</strong></td>
+        <td>ITUE203 - Web Development Frameworks</td>
+      </tr>
+      <tr>
+        <td><strong>Student Name:</strong></td>
+        <td>Jay Bhensdadiya</td>
+      </tr>
+      <tr>
+        <td><strong>Student Enrollment ID:</strong></td>
+        <td>23DCE128 / 23DCE426</td>
+      </tr>
+      <tr>
+        <td><strong>Academic Department:</strong></td>
+        <td>Computer Engineering / Information Technology</td>
+      </tr>
+      <tr>
+        <td><strong>GitHub Repository:</strong></td>
+        <td><code>https://github.com/Dev-Jay99/WDF</code></td>
+      </tr>
+      <tr>
+        <td><strong>Local Development Path:</strong></td>
+        <td><code>c:\xampp\htdocs\studenthub\</code></td>
+      </tr>
+    </table>
+  </div>
+
+  <p style="font-size: 10pt; color: #64748b; margin-top: 40px;">
+    Academic Year 2026-27 &bull; CHARUSAT Campus, Changa - 388421
+  </p>
+</div>
+
+<!-- ================= PRACTICAL 1 ================= -->
+<h1 class="practical-title">Practical 1: Project Initiation, Requirement Analysis, Sitemap, Wireframe, and GitHub Setup</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Initiate the semester-long StudentHub portal by identifying the problem scope, user roles, key modules, navigation flow, and minimum 10 pages. Create a sitemap, low-fidelity wireframe, project folder structure, README file, and GitHub repository.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+In this practical, the foundational planning and architecture of the <strong>StudentHub</strong> portal were established. The problem statement centers around unifying disparate student campus workflows—including profile records, course enrollment, examination schedules, event participation, and administration—into a single responsive web interface.
+</p>
+<ul>
+  <li><strong>User Roles Identified:</strong> Administrator (full CRUD, user moderation, audit inspection), Enrolled Student (profile view, event registration, dynamic queries), and Guest (public catalog, FAQs, inquiry submission).</li>
+  <li><strong>Minimum 10 Target Modules:</strong> Home, About, User Login, User Registration, Student Dashboard, Campus Events, Student Profile, Course Catalog, Contact Support, and FAQs.</li>
+  <li><strong>Wireframing:</strong> Low-fidelity wireframes were designed for all 10 key page layouts illustrating responsive grid cards, form controls, navigation bars, and data tables.</li>
+  <li><strong>Sitemap Architecture:</strong> A complete hierarchical sitemap structure was drafted and formalized in standard XML format (<code>sitemap.xml</code>) with priority tags.</li>
+  <li><strong>Project Repository & Folder Structure:</strong> A dedicated modular folder organization was established containing <code>css/</code>, <code>js/</code>, <code>data/</code>, <code>sql/</code>, <code>uploads/</code>, and <code>admin/</code>, initialized with Git version control and a comprehensive <code>README.md</code>.</li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. What is a URL and what are the parts of a URL?</div>
+  <div class="qa-a">
+    A Uniform Resource Locator (URL) is the global web address used to locate resources on the Internet. Its principal components include:
+    <ul>
+      <li><strong>Protocol / Scheme:</strong> Defines communication rules (e.g., <code>http://</code>, <code>https://</code>).</li>
+      <li><strong>Domain Name / Host:</strong> Identifies the host server (e.g., <code>localhost</code>, <code>charusat.edu.in</code>).</li>
+      <li><strong>Port:</strong> Communication channel number (e.g., <code>:80</code> for HTTP, <code>:443</code> for HTTPS).</li>
+      <li><strong>Path:</strong> Hierarchical directory route to the file on the server (e.g., <code>/studenthub/events.php</code>).</li>
+      <li><strong>Query String:</strong> Parameters passed after <code>?</code> (e.g., <code>?category=Technical&search=hackathon</code>).</li>
+      <li><strong>Fragment / Anchor:</strong> Points to an internal page bookmark after <code>#</code> (e.g., <code>#main-content</code>).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. How is an HTML file processed in a web browser?</div>
+  <div class="qa-a">
+    Processing follows a five-step rendering pipeline: (1) <strong>Parsing & DOM Construction:</strong> Raw bytes are converted into characters, tokens, nodes, and assembled into the Document Object Model (DOM) tree. (2) <strong>CSSOM Tree:</strong> Linked and inline CSS rules are parsed into the CSS Object Model (CSSOM). (3) <strong>Render Tree:</strong> The browser combines DOM and CSSOM, computing styles for visible nodes. (4) <strong>Layout (Reflow):</strong> The exact geometry and position of each element are calculated. (5) <strong>Painting:</strong> Pixels are rasterized to the screen.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. How will page navigation flow be managed among all HTML pages?</div>
+  <div class="qa-a">
+    Navigation flow is unified through a persistent, global header component with semantic links. Dynamic role detection adjusts the menu options based on session privileges (Guest, Student, Admin) while breadcrumb navigation maintains context on deeper pages.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q4. How will GitHub commits be maintained after each practical?</div>
+  <div class="qa-a">
+    GitHub commits are maintained using atomic, conventional commit messages tagged with practical numbers (e.g., <code>feat(pr-01): project setup and wireframes</code>, <code>feat(pr-08): schema design and PDO connection</code>). This preserves traceability across all 15 stages.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Balancing comprehensive functional scope without over-complicating early static mockups; establishing a consistent folder architecture that seamlessly scales across both procedural and object-oriented PHP without breaking relative paths.</li>
+  <li><strong>Learning Outcomes:</strong> Mastered systematic requirement scoping, low-fidelity wireframing techniques, Git version control initialization, and strict XML sitemap generation.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> Practical 1 successfully established the architectural foundation, sitemap, wireframes, and GitHub repository for the StudentHub portal.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+<!-- ================= PRACTICAL 2 ================= -->
+<h1 class="practical-title">Practical 2: Semantic HTML5 Pages with Accessibility-Ready Structure</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Develop static HTML5 skeletons for at least 10 StudentHub pages such as Home, About, Register, Login, Dashboard, Events, Profile, Contact, Admin, FAQ, and Feedback. Use semantic tags and accessibility-friendly structure.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+Ten static pages were constructed adhering to W3C semantic guidelines and WAI-ARIA standards. Legacy formatting tags were replaced with modern HTML5 structural elements:
+</p>
+<ul>
+  <li><strong>Landmarks Used:</strong> <code>&lt;header role="banner"&gt;</code>, <code>&lt;nav role="navigation"&gt;</code>, <code>&lt;main role="main" id="main-content"&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, and <code>&lt;footer role="contentinfo"&gt;</code>.</li>
+  <li><strong>Accessibility Enhancements:</strong> Added a prominent <code>.skip-link</code> allowing screen reader and keyboard users to bypass top navigation. All forms use explicit <code>&lt;label for="..."&gt;</code> pairings, inputs feature descriptive <code>aria-describedby</code> attributes, and images contain contextual <code>alt</code> text.</li>
+  <li><strong>Breadcrumbs & Document Hierarchy:</strong> Structured heading tags (<code>&lt;h1&gt;</code> to <code>&lt;h4&gt;</code>) enforce clear document outlines, and ordered breadcrumb lists provide clear hierarchical trail navigation.</li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. Are semantic tags such as header, nav, main, section, article, aside, and footer used properly?</div>
+  <div class="qa-a">
+    Yes. Every page utilizes a distinct <code>&lt;header&gt;</code>, global <code>&lt;nav&gt;</code>, unique <code>&lt;main&gt;</code>, modular <code>&lt;section&gt;</code> divisions, self-contained <code>&lt;article&gt;</code> event/course cards, contextual <code>&lt;aside&gt;</code> widgets, and <code>&lt;footer&gt;</code>.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. Are form labels, headings, image alt text, and navigation links accessible?</div>
+  <div class="qa-a">
+    Yes. Form controls are bound with matching <code>id</code> and <code>for</code> attributes, heading levels follow a strict hierarchical sequence without skipping ranks, all image posters have meaningful descriptions, and interactive elements possess keyboard focus indicators.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. Is the page structure consistent across all pages?</div>
+  <div class="qa-a">
+    Yes. The skeleton layout remains uniform across all 10 pages, ensuring visual predictability and assistive technology consistency.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Eliminating deprecated table-based layouts in favor of pure semantic landmarks while maintaining rigorous keyboard focus tab orders and accessible form groupings.</li>
+  <li><strong>Learning Outcomes:</strong> Gained deep competence in semantic HTML5 markup, ARIA roles, skip-to-content navigation patterns, and accessibility validation techniques.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> All 10 StudentHub core pages were successfully built with clean, accessible, semantic HTML5 structure.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+<!-- ================= PRACTICAL 3 ================= -->
+<h1 class="practical-title">Practical 3: Responsive UI Design using CSS Grid, Flexbox, and Mobile-First Rules</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Design responsive layouts for Home, About, Registration, Dashboard, and Events pages using CSS Grid and Flexbox. Optional to use CSS framework such as Bootstrap or Tailwind. Ensure mobile-first responsiveness.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+Practical 3 transformed the unstyled HTML5 skeleton into a responsive, polished presentation using custom CSS3 with Grid, Flexbox, and CSS Variables:
+</p>
+<ul>
+  <li><strong>Mobile-First Media Queries:</strong> Base styles are styled for mobile viewports (single column flow). Breakpoints at <code>680px</code> and <code>900px</code> smoothly expand layouts into 2-column, 3-column, and 4-column configurations.</li>
+  <li><strong>CSS Grid Layouts:</strong> Implemented <code>.grid-2</code>, <code>.grid-3</code>, and <code>.grid-4</code> using <code>grid-template-columns: repeat(auto-fit, minmax(...))</code> for event listings, dashboard metrics, and academic modules.</li>
+  <li><strong>Flexbox Alignment:</strong> Flexbox powers the global navbar, horizontal action bars, breadcrumb trails, card headers, and form button alignments.</li>
+  <li><strong>Design System:</strong> Integrated reusable CSS custom properties (<code>--primary</code>, <code>--bg-main</code>, <code>--text-main</code>, <code>--border-color</code>) ensuring high color contrast ratios meeting WCAG AA accessibility standards.</li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. How does the layout adapt for mobile, tablet, and desktop screens?</div>
+  <div class="qa-a">
+    On mobile viewports (&lt;680px), multi-column grids collapse to a single vertical column, and the navbar transforms into a hidden off-canvas drawer. On tablets (&ge;680px) and desktops (&ge;900px), CSS Grid expands items into balanced 2-, 3-, and 4-column cards.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. Which layout technique is used and why?</div>
+  <div class="qa-a">
+    A hybrid approach is employed: <strong>CSS Grid</strong> is selected for 2-dimensional page areas (dashboards, event catalogs, data card grids) while <strong>Flexbox</strong> is selected for 1-dimensional components (navbars, card headers, button groups, modal footers).
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. Are typography, spacing, colors, and contrast readable?</div>
+  <div class="qa-a">
+    Yes. System font stacks with relative line heights (1.6) and high-contrast color pairings (#1e40af on white, #f1f5f9 on dark slate) ensure readability across high-DPI screens.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Preventing card height stretching across unequal content lengths; debugging flexbox wrapping bugs on mobile input fields; achieving clean typography contrast across both light and dark backgrounds.</li>
+  <li><strong>Learning Outcomes:</strong> Mastered mobile-first media query strategy, fluid grid systems with CSS Grid, Flexbox alignment algorithms, and modular stylesheet architecture.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> Fully responsive UI layouts for Home, About, Register, Dashboard, and Events were successfully implemented with pure CSS Grid and Flexbox.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+<!-- ================= PRACTICAL 4 ================= -->
+<h1 class="practical-title">Practical 4: JavaScript DOM Manipulation, Event Handling, and UI Interactivity</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Add dynamic UI components such as collapsible FAQ, modal popup, image/content slider, notification banner, hamburger menu, and light/dark theme switcher using JavaScript.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+Client-side interactivity was engineered using vanilla ECMAScript 6+ DOM manipulation without third-party dependencies:
+</p>
+<ul>
+  <li><strong>Light / Dark Theme Switcher:</strong> Implemented theme toggling by dynamically toggling <code>data-theme="dark"</code> on the root <code>&lt;html&gt;</code> element. The preference is stored in <code>localStorage</code> (key: <code>studenthub_theme</code>) and automatically restored on subsequent visits.</li>
+  <li><strong>Responsive Hamburger Navigation:</strong> An accessible hamburger button toggles an <code>.open</code> class on the mobile nav menu with click-outside detection and ESC key support.</li>
+  <li><strong>Notification Alert Banners:</strong> Notification banners support manual close actions and smooth automatic fade-out dismissal after 6 seconds.</li>
+  <li><strong>Interactive Modal Dialogs:</strong> Custom accessible modal dialogs support keyboard trapping, escape-key closing, focus restoration, and backdrop dismissal.</li>
+  <li><strong>Collapsible FAQ Accordion:</strong> Dynamic height animation calculates <code>scrollHeight</code> upon click events, smoothly expanding the selected question while collapsing sibling items.</li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. How are DOM elements selected and modified?</div>
+  <div class="qa-a">
+    Elements are targeted using <code>document.getElementById()</code>, <code>querySelector()</code>, and <code>querySelectorAll()</code>. Modifications are performed safely via <code>classList.add/remove/toggle</code>, <code>setAttribute()</code>, and <code>textContent</code> to prevent XSS vulnerabilities.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. Are event listeners attached correctly?</div>
+  <div class="qa-a">
+    Yes. Event listeners are bound cleanly via <code>addEventListener('click')</code>, <code>addEventListener('input')</code>, and <code>addEventListener('keydown')</code> after the <code>DOMContentLoaded</code> event fires.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. Is localStorage used for remembering theme choice?</div>
+  <div class="qa-a">
+    Yes. When a user switches themes, <code>localStorage.setItem('studenthub_theme', theme)</code> persists the choice. On page initialization, the script checks <code>localStorage</code> before falling back to system OS color preferences.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Handling CSS transition timing for accordion expand/collapse using dynamic scrollHeight; preventing mobile scrolling when modal popups are open; persisting theme state prior to initial paint to eliminate flash-of-unstyled-content (FOUC).</li>
+  <li><strong>Learning Outcomes:</strong> Mastered event propagation, class manipulation, responsive menu toggling, accessibility keyboard shortcuts, and client-side storage with localStorage.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> Comprehensive client-side interactivity—including dark theme switching, mobile drawer navigation, modal popups, and accordion FAQ—was successfully implemented.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+<!-- ================= PRACTICAL 5 ================= -->
+<h1 class="practical-title">Practical 5: Registration Form with Frontend Validation and User-Friendly Error Handling</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Create a student registration form with HTML5 input types and JavaScript validation for name, email, mobile number, password, confirm password, course, year, gender, and terms acceptance. Use Regular Expression for validations.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+A student registration validation engine was implemented in <code>js/validation.js</code> and applied to <code>register.php</code>:
+</p>
+<ul>
+  <li><strong>Regular Expression Testing:</strong>
+    <ul>
+      <li>Full Name: <code>/^[a-zA-Z\s]{2,50}$/</code> (Alphabets and spaces only).</li>
+      <li>University Email: <code>/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/</code>.</li>
+      <li>Mobile Number: <code>/^[6-9]\d{9}$/</code> (10-digit Indian standard starting with 6-9).</li>
+      <li>Student Number: <code>/^[0-9]{2}[A-Za-z]{2}[0-9]{3}$/</code> (e.g., 23IT001).</li>
+    </ul>
+  </li>
+  <li><strong>Password Strength Meter:</strong> Evaluates password complexity across four criteria (length &ge;8, uppercase/lowercase, digits, special characters) with a colored dynamic visual meter (Weak: Red, Fair: Yellow, Good: Blue, Strong: Green).</li>
+  <li><strong>Real-Time Inline Error Feedback:</strong> Event listeners on <code>blur</code> and <code>keyup</code> instantly toggle <code>.is-valid</code> and <code>.is-invalid</code> states, rendering human-friendly error messages adjacent to the input field.</li>
+  <li><strong>Advanced Extension (Canvas CAPTCHA):</strong> Generates randomized alphanumeric text rendered onto an HTML5 <code>&lt;canvas&gt;</code> element with line noise and rotation, requiring user verification before submission.</li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. Are correct input types and attributes used?</div>
+  <div class="qa-a">
+    Yes. Specialized HTML5 input types (<code>type="email"</code>, <code>type="tel"</code>, <code>type="password"</code>) are configured alongside <code>required</code>, <code>minlength</code>, <code>maxlength</code>, and <code>autocomplete</code> attributes.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. Are validation errors displayed near the relevant fields?</div>
+  <div class="qa-a">
+    Yes. Each input has an associated <code>.form-error</code> text element injected directly below the respective input field, avoiding disruptive modal alerts.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. Is password strength checked?</div>
+  <div class="qa-a">
+    Yes. The password score is dynamically computed on each keystroke and reflected via color-coded meter bars and descriptive text hints.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Formulating precise regular expressions that accommodate international characters while blocking malicious scripting injection; drawing distorted characters and noise onto HTML5 Canvas without breaking legibility.</li>
+  <li><strong>Learning Outcomes:</strong> Mastered client-side Regular Expressions, real-time input event listeners, Canvas API rendering, and accessible form UX design.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> Robust frontend validation with regular expressions, dynamic password meter, and canvas CAPTCHA was successfully completed.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+<!-- ================= PRACTICAL 6 ================= -->
+<h1 class="practical-title">Practical 6: Rendering External JSON Data using Fetch API, Search and Filter</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Display event lists, student profiles, notices, or FAQs from external JSON files using Fetch API. Implement dynamic rendering, search, filter, sorting, and pagination.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+Practical 6 implements modern asynchronous JSON consumption in <code>js/dynamic-lists.js</code>:
+</p>
+<ul>
+  <li><strong>External Data Sources:</strong> Created three comprehensive JSON datasets with 16+ structured records each: <code>data/faqs.json</code>, <code>data/events.json</code>, and <code>data/students.json</code>.</li>
+  <li><strong>Asynchronous Fetch API:</strong> Uses JavaScript <code>fetch()</code> with <code>async/await</code> syntax, handling network errors and HTTP status codes cleanly.</li>
+  <li><strong>Search, Filter & Sorting Algorithms:</strong> Client-side array filtering implements real-time keyword matching across all object keys, category filtering via dynamic dropdowns, and sorting (alphabetical A-Z, Z-A, dates).</li>
+  <li><strong>Client-Side Pagination:</strong> Records are sliced into configurable page sizes (3, 6, or 10 per page) with interactive Next/Previous controls and live page indicators.</li>
+  <li><strong>Advanced Extension (Offline LocalStorage Caching):</strong> Retrieved JSON responses are cached in <code>localStorage</code>; if the network is disconnected, the cached dataset is rendered automatically with an offline badge.</li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. How is JSON fetched, parsed, and rendered?</div>
+  <div class="qa-a">
+    <code>fetch(url)</code> retrieves the remote stream, <code>response.json()</code> parses the payload into a JavaScript array, and template literals dynamically construct and mount HTML cards into the DOM.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. Which array methods are used for search, filter, sort, and pagination?</div>
+  <div class="qa-a">
+    <ul>
+      <li><strong>Filter & Search:</strong> <code>Array.prototype.filter()</code> and <code>String.prototype.includes()</code>.</li>
+      <li><strong>Category Extraction:</strong> <code>new Set()</code> and <code>Array.prototype.map()</code>.</li>
+      <li><strong>Sorting:</strong> <code>Array.prototype.sort()</code> with <code>localeCompare()</code>.</li>
+      <li><strong>Pagination:</strong> <code>Array.prototype.slice(start, end)</code>.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. How are loading and error states handled?</div>
+  <div class="qa-a">
+    Before the network response settles, a centered loading indicator is displayed. On network rejection or 404/500 errors, a catch block catches the exception and displays an accessible alert message with retry options.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Coordinating multi-criteria search, category filters, and sorting concurrently without race conditions; managing edge cases when filtered results span zero pages.</li>
+  <li><strong>Learning Outcomes:</strong> Mastered asynchronous JavaScript, JSON schema manipulation, functional array methods (map, filter, sort, slice), and offline persistence strategies.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> External JSON consumption using Fetch API with live search, category filter, sorting, pagination, and offline caching was successfully achieved.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+<!-- ================= PRACTICAL 7 ================= -->
+<h1 class="practical-title">Practical 7: PHP Form Processing with Server-Side Validation and CSV/JSON File Storage</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Process submitted registration/contact form data using PHP. Validate and sanitize inputs on the server side and store records in CSV or JSON file format. Display success/error messages.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+Server-side data ingestion was implemented via <code>contact.php</code>, <code>contact-process.php</code>, and <code>view-submissions.php</code>:
+</p>
+<ul>
+  <li><strong>POST Method Ingestion:</strong> Form submissions are accepted strictly via HTTP POST requests; unauthorized GET access triggers HTTP 405 Method Not Allowed.</li>
+  <li><strong>Sanitization & Validation:</strong> Inputs are cleaned using <code>htmlspecialchars()</code>, <code>filter_var(..., FILTER_SANITIZE_EMAIL)</code>, and length/regex rules.</li>
+  <li><strong>CSRF Token Verification:</strong> Cryptographically secure tokens generated via <code>random_bytes(32)</code> protect form submissions against cross-site request forgery attacks.</li>
+  <li><strong>Concurrent File Persistence with <code>flock()</code>:</strong> Submissions are appended to both <code>contact-submissions.json</code> and <code>contact-submissions.csv</code> using exclusive file locking (<code>LOCK_EX</code>) to avoid race conditions.</li>
+  <li><strong>Intermediate Extension (Submissions Viewer):</strong> Built <code>view-submissions.php</code> allowing authorized users to inspect recorded JSON and CSV submissions in clean tables.</li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. Is the form submitted using POST?</div>
+  <div class="qa-a">
+    Yes. Sensitive form payloads are submitted via POST, ensuring data is not exposed in web server logs or browser address bars.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. Are inputs validated and sanitized server side?</div>
+  <div class="qa-a">
+    Yes. Even if client-side validation is bypassed, PHP strictly sanitizes special characters and enforces string length and email format rules on the backend.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. Is file writing handled safely?</div>
+  <div class="qa-a">
+    Yes. File pointers are opened with safe modes, locked using <code>flock($fp, LOCK_EX)</code> prior to writing, flushed with <code>fflush()</code>, and unlocked cleanly.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Handling concurrent file writes without truncating or corrupting existing JSON arrays; correctly formatting multi-line textarea messages into standard RFC 4180 CSV rows.</li>
+  <li><strong>Learning Outcomes:</strong> Mastered PHP server-side form processing, input sanitization filters, CSRF token management, and concurrency-safe file I/O operations.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> Secure server-side form processing storing data safely in both JSON and CSV formats with CSRF protection was successfully implemented.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+<!-- ================= PRACTICAL 8 ================= -->
+<h1 class="practical-title">Practical 8: MySQL Schema Design, ER Model, PDO Connectivity, and Prepared Statements</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Design the database for StudentHub with students, events and registrations. Create PHP database connection using MYSQL statements.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+The database architecture was engineered in <code>sql/studenthub.sql</code> with dual connectivity support:
+</p>
+<ul>
+  <li><strong>Normalized Relational Schema (3NF):</strong>
+    <ul>
+      <li><code>users</code>: Authentication credentials, roles (admin, student), status, last login, and remember tokens.</li>
+      <li><code>students</code>: Academic records (student number, full name, email, mobile, branch, year, user FK).</li>
+      <li><code>events</code>: Title, description, category, event date, venue, capacity, poster image, and status.</li>
+      <li><code>registrations</code>: Student-to-event enrollment junction with composite unique constraints and foreign keys with cascading updates/deletes.</li>
+      <li><code>audit_logs</code>: Immutable audit trail recording user IDs, usernames, actions, client IP, and timestamps.</li>
+    </ul>
+  </li>
+  <li><strong>Dual Database Connection Architecture:</strong>
+    <ul>
+      <li><code>db.php</code>: High-performance MySQLi connection configured with strict error reporting.</li>
+      <li><code>db_pdo.php</code>: Object-oriented PHP Data Objects (PDO) connection with prepared statement emulation disabled for security.</li>
+    </ul>
+  </li>
+  <li><strong>Verification Suite:</strong> Built <code>test_connection.php</code> executing diagnostic queries against both MySQLi and PDO engines.</li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. Is the schema normalized properly?</div>
+  <div class="qa-a">
+    Yes. The database is normalized to Third Normal Form (3NF). Student personal data, user auth credentials, events, and registration transactions reside in distinct tables without redundancy.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. Are primary keys and foreign keys correctly defined?</div>
+  <div class="qa-a">
+    Yes. Every table possesses an auto-incrementing unsigned primary key. Foreign keys enforce referential integrity with <code>ON UPDATE CASCADE</code> and <code>ON DELETE CASCADE</code> / <code>SET NULL</code>.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. Is the database connection handled securely?</div>
+  <div class="qa-a">
+    Yes. Connections use UTF-8 character encoding (<code>utf8mb4</code>), PDO exception error modes, and prepared statements preventing SQL injection.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Establishing composite unique keys preventing double event registrations; designing foreign key constraint cascades without causing circular dependencies.</li>
+  <li><strong>Learning Outcomes:</strong> Mastered relational database design, ER modeling, foreign key referential integrity, and dual MySQLi/PDO database connection patterns.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> Normalized MySQL schema design with 5 relational tables, seed data, and secure MySQLi/PDO connections was successfully established.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+<!-- ================= PRACTICAL 9 ================= -->
+<h1 class="practical-title">Practical 9: Secure User Registration with Database Insert, Duplicate Email Check, and Password Hashing</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Implement secure user registration by inserting user details into MySQL using MySQLi. Validate input on frontend and backend, check duplicate email/username, hash passwords using password_hash(), and display appropriate messages.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+Practical 9 implements secure user provisioning in <code>register.php</code>:
+</p>
+<ul>
+  <li><strong>Bcrypt Password Hashing:</strong> Raw passwords are never stored in plaintext. They are encrypted using <code>password_hash($password, PASSWORD_BCRYPT)</code> with a secure cryptographic work factor.</li>
+  <li><strong>Duplicate Collision Checks:</strong> Prior to insertion, parameterized queries verify that the requested username, email address, and student enrollment number are unique across the database.</li>
+  <li><strong>Atomic Database Transactions:</strong> Wrapping both <code>users</code> and <code>students</code> insertions inside a single transaction (<code>$conn->begin_transaction()</code>) ensures data integrity; any failure triggers <code>$conn->rollback()</code>.</li>
+  <li><strong>Security Audit Trail:</strong> Successful registrations automatically append a <code>USER_REGISTERED</code> entry to the <code>audit_logs</code> table.</li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. Is password_hash() used before storing passwords?</div>
+  <div class="qa-a">
+    Yes. Passwords are encrypted using PHP's native <code>password_hash()</code> with Bcrypt, generating 60-character salted hashes before database storage.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. Is duplicate email/username checked?</div>
+  <div class="qa-a">
+    Yes. Prepared SELECT queries check for existing username or email records. If duplicates exist, informative warning notices are presented to the user.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. Are frontend and backend validations consistent?</div>
+  <div class="qa-a">
+    Yes. Matching Regular Expressions and validation rules are executed on both client-side JavaScript and server-side PHP to guarantee data hygiene.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Coordinating synchronized inserts across both <code>users</code> and <code>students</code> tables using foreign keys; ensuring safe error reporting without disclosing database schema details.</li>
+  <li><strong>Learning Outcomes:</strong> Mastered cryptographic password hashing, duplicate check workflows, database transaction rollback techniques, and audit logging.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> Secure user registration featuring Bcrypt password hashing, duplicate verification, and database transactions was successfully implemented.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+<!-- ================= PRACTICAL 10 ================= -->
+<h1 class="practical-title">Practical 10: Secure Login/Logout with Sessions, Role-Based Access, Timeout, and Remember-Me Token</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Develop secure login and logout functionality using PHP sessions. Verify password using password_verify(), regenerate session ID after login, restrict dashboard access, implement role-based redirection, session timeout, and optional secure remember-me token.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+Authentication and role-based access control were engineered across <code>login.php</code>, <code>logout.php</code>, and <code>includes/auth.php</code>:
+</p>
+<ul>
+  <li><strong>Password Verification:</strong> Passwords entered during login are authenticated against stored Bcrypt hashes via <code>password_verify()</code>.</li>
+  <li><strong>Session Fixation Prevention:</strong> Upon authentication, <code>session_regenerate_id(true)</code> destroys old session IDs and allocates a fresh identifier.</li>
+  <li><strong>Inactivity Session Timeout (15 Minutes):</strong> If <code>time() - $_SESSION['last_activity'] &gt; 900</code> seconds, the session is purged, and the user is redirected with an expired notice.</li>
+  <li><strong>Role-Based Access Control (RBAC):</strong>
+    <ul>
+      <li><code>admin</code> users are routed to <code>admin/dashboard.php</code> with management tools.</li>
+      <li><code>student</code> users are routed to <code>index.php</code> or <code>profile.php</code>.</li>
+      <li>Unauthorized visits to admin modules trigger HTTP 403 Access Denied.</li>
+    </ul>
+  </li>
+  <li><strong>Secure Remember-Me Tokens:</strong> Uses SHA-256 hashed random tokens stored in database and set in HTTP-only, SameSite cookies for persistent 30-day login.</li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. Are sessions started and destroyed securely?</div>
+  <div class="qa-a">
+    Yes. Sessions are initialized with <code>cookie_httponly</code> and destroyed during logout by unsetting <code>$_SESSION</code>, invalidating cookie headers, and calling <code>session_destroy()</code>.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. Is password_verify() used correctly?</div>
+  <div class="qa-a">
+    Yes. <code>password_verify($password, $user['password'])</code> safely verifies credentials in constant time against timing attacks.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. Is unauthorized dashboard access blocked?</div>
+  <div class="qa-a">
+    Yes. The guard function <code>require_admin()</code> inspects session role headers and blocks unauthenticated or non-admin users with HTTP 403 Forbidden.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q4. Is session timeout implemented?</div>
+  <div class="qa-a">
+    Yes. The middleware evaluates <code>$_SESSION['last_activity']</code>; users inactive for &gt;15 minutes are automatically signed out.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Configuring secure session cookie attributes (HttpOnly, SameSite) across local XAMPP environments; managing state transitions during auto-logout timeout events.</li>
+  <li><strong>Learning Outcomes:</strong> Mastered PHP session lifecycle management, timing-safe password verification, RBAC guard patterns, and persistent remember-me tokens.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> Secure authentication with role-based routing, session regeneration, 15-minute inactivity timeout, and remember-me tokens was successfully completed.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+<!-- ================= PRACTICAL 11 ================= -->
+<h1 class="practical-title">Practical 11: Student Management CRUD with Search, Filter, and MySQLi Statements</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Create a student management module to add, view, edit, delete, search and filter student records. All database operations must use MYSQLi statements and clear success/failure messages.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+Student data administration was implemented in <code>students.php</code>, <code>student-add.php</code>, <code>student-edit.php</code>, <code>student-delete.php</code>, and <code>student-export.php</code>:
+</p>
+<ul>
+  <li><strong>Complete CRUD Operations:</strong>
+    <ul>
+      <li><strong>Create:</strong> <code>student-add.php</code> inserts records using MySQLi prepared statements.</li>
+      <li><strong>Read:</strong> <code>students.php</code> displays paginated student records with department and status tags.</li>
+      <li><strong>Update:</strong> <code>student-edit.php</code> loads student data into bound form fields for modification.</li>
+      <li><strong>Delete:</strong> <code>student-delete.php</code> supports soft-delete (status marked inactive) and permanent removal.</li>
+    </ul>
+  </li>
+  <li><strong>Multi-Criteria Search & Filter:</strong> Real-time filtering by keyword (name, email, enrollment ID), branch, year, and status.</li>
+  <li><strong>Delete Confirmation Modal:</strong> Prevents accidental record loss via an accessible modal prompt.</li>
+  <li><strong>Intermediate Extension (CSV Export):</strong> <code>student-export.php</code> streams the full database directory into a downloadable CSV spreadsheet.</li>
+  <li><strong>Dataset:</strong> Seeded with 22 complete student records exceeding the manual's minimum requirement of 20 records.</li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. Are SELECT, INSERT, UPDATE, and DELETE operations working?</div>
+  <div class="qa-a">
+    Yes. All four CRUD operations execute using parameterized MySQLi prepared statements with explicit success and failure feedback banners.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. Is search by name/email/course implemented?</div>
+  <div class="qa-a">
+    Yes. The search input binds wildcard parameters (<code>%keyword%</code>) against full name, student number, and email columns simultaneously.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. Are delete operations confirmed before execution?</div>
+  <div class="qa-a">
+    Yes. Delete actions trigger an interactive confirmation modal displaying the target student's name and allowing selection between soft-delete and permanent delete.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Dynamically generating parameterized SQL queries based on optional filter inputs; ensuring the CSV export handles commas and special characters in student records cleanly.</li>
+  <li><strong>Learning Outcomes:</strong> Mastered MySQLi prepared statements, dynamic query construction, pagination algorithms, soft deletion strategies, and automated CSV generation.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> A complete Student Management CRUD module featuring search, multi-filter, pagination, modal deletion, and CSV export was successfully completed.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+<!-- ================= PRACTICAL 12 ================= -->
+<h1 class="practical-title">Practical 12: Event Management CRUD with Poster Upload and File Validation</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Develop event management functionality for admin users. Admin can add, view, update, delete, and upload event posters with file type and file size validation.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+Event lifecycle management and validated media ingestion were implemented across <code>events.php</code>, <code>event-add.php</code>, <code>event-edit.php</code>, <code>event-delete.php</code>, and <code>event-register.php</code>:
+</p>
+<ul>
+  <li><strong>Poster File Upload Validation:</strong>
+    <ul>
+      <li><strong>MIME Type Verification:</strong> Evaluated server-side using <code>finfo(FILEINFO_MIME_TYPE)</code> allowing only <code>image/jpeg</code>, <code>image/png</code>, and <code>image/webp</code>.</li>
+      <li><strong>Size Enforcement:</strong> Rejects files exceeding 2 MB (2,097,152 bytes).</li>
+      <li><strong>Secure Renaming:</strong> Files are renamed using cryptographic hashes (e.g., <code>event_a7b8c9d0e1.jpg</code>) preventing path traversal or filename execution attacks.</li>
+      <li><strong>Upload Directory Protection:</strong> An <code>.htaccess</code> file inside <code>uploads/</code> blocks execution of PHP or shell scripts.</li>
+    </ul>
+  </li>
+  <li><strong>Event Catalog & Registration:</strong> Displays events in responsive cards with category badges (Technical, Cultural, Sports, Workshop, Seminar), venue, date, capacity counters, and student one-click registration.</li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. Are add, update, and delete functionalities implemented correctly?</div>
+  <div class="qa-a">
+    Yes. Administrators can create events with posters, edit metadata, and delete events (which automatically purges associated poster files from disk).
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. Are poster uploads validated for type and size?</div>
+  <div class="qa-a">
+    Yes. PHP validates files using genuine file inspection (not just extensions) and strictly rejects files exceeding 2 MB.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. Are success and failure messages displayed?</div>
+  <div class="qa-a">
+    Yes. Flash messages provide feedback on validation errors, successful publications, updates, and cancellations.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Protecting the server against malicious file uploads masked as images; handling file unlinking on event deletion without leaving orphaned image files.</li>
+  <li><strong>Learning Outcomes:</strong> Mastered multipart form handling in PHP, MIME-type inspection with finfo, secure file renaming, and directory access hardening.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> Event Management CRUD with strict file upload validation, secure image storage, and registration capabilities was successfully implemented.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+<!-- ================= PRACTICAL 13 ================= -->
+<h1 class="practical-title">Practical 13: PHP JSON API and AJAX/Fetch-Based CRUD without Page Reload</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Create simple PHP JSON API endpoints for events or students and consume them using Fetch API. Perform list, add, update, and delete operations asynchronously without full page reload.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+Practical 13 decoupled backend data processing from the presentation layer using RESTful JSON APIs and Fetch API:
+</p>
+<ul>
+  <li><strong>RESTful API Endpoint (<code>api/events.php</code>):</strong>
+    <ul>
+      <li><code>GET</code>: Fetches all events or a single event by ID with optional search/category filters.</li>
+      <li><code>POST</code>: Creates an event, returning HTTP 201 Created and JSON payload.</li>
+      <li><code>PUT</code>: Updates an existing event, returning HTTP 200 OK.</li>
+      <li><code>DELETE</code>: Deletes an event, returning HTTP 200 OK.</li>
+      <li>Outputs strict <code>Content-Type: application/json; charset=UTF-8</code> headers.</li>
+    </ul>
+  </li>
+  <li><strong>Single Page Application Interface (<code>events-ajax.php</code>):</strong>
+    <ul>
+      <li>Consumes the REST API using <code>fetch()</code> without reloading the browser.</li>
+      <li><strong>Debounced Real-Time Search:</strong> A 300ms debounce timer prevents excessive network requests during typing.</li>
+      <li><strong>Live DOM Mutation:</strong> Adding or editing updates the table in-place; deleting fades and removes the row with smooth CSS animation.</li>
+      <li><strong>Status Notifications:</strong> Toast alerts notify users of API responses and network states.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. Do PHP endpoints return valid JSON responses?</div>
+  <div class="qa-a">
+    Yes. All responses are encoded with <code>json_encode()</code> and sent with appropriate HTTP status codes (200, 201, 400, 403, 404, 500).
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. Are GET and POST requests handled properly?</div>
+  <div class="qa-a">
+    Yes. The API parses <code>$_SERVER['REQUEST_METHOD']</code>, reads raw JSON streams from <code>php://input</code>, and validates payloads before database execution.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. Are loading, success, and error states shown on the frontend?</div>
+  <div class="qa-a">
+    Yes. Loading skeletons are rendered during network operations, success toasts confirm operations, and error banners report API failure reasons.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Reading and parsing <code>php://input</code> streams for HTTP PUT and DELETE methods; managing asynchronous DOM updates without race conditions or memory leaks.</li>
+  <li><strong>Learning Outcomes:</strong> Mastered RESTful API endpoint design in PHP, HTTP request method routing, Fetch API integration, search debouncing, and single-page asynchronous UI updates.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> Fully asynchronous CRUD operations with RESTful JSON API endpoints, Fetch API, and debounced search were successfully implemented with zero page reloads.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+<!-- ================= PRACTICAL 14 ================= -->
+<h1 class="practical-title">Practical 14: Admin Dashboard with Role-Based Access Control, Dynamic Menu, and Audit Log</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Develop an admin dashboard that displays user statistics, student count, event count and latest registrations. Restrict access to admin users only and show dynamic menu options based on role.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+Administrative intelligence and audit tracking were implemented in <code>admin/dashboard.php</code>, <code>admin/audit-logs.php</code>, and <code>admin/users.php</code>:
+</p>
+<ul>
+  <li><strong>Aggregated KPI Metrics:</strong> Database aggregation queries calculate real-time counts for Active Students, Total Campus Events, Event Registrations, and Authenticated Users.</li>
+  <li><strong>Visual Analytics:</strong> Displays proportional progress bars and event breakdown percentages by category (Technical, Cultural, Sports, Workshops, Seminars).</li>
+  <li><strong>Dynamic Role-Based Menus:</strong> Global navigation adapts dynamically based on user role—administrators receive links to Admin Dashboard, Student CRUD, Event CRUD, and Audit Logs; students see Profile and Feedback.</li>
+  <li><strong>Security Audit Trail (<code>audit_logs</code> table):</strong> All critical actions (logins, logouts, student modifications, event deletions, user toggles) are recorded with timestamps, user IDs, and client IP addresses.</li>
+  <li><strong>Intermediate Extension (User Status Toggle):</strong> <code>admin/users.php</code> allows administrators to toggle account status between Active and Inactive with instant effect.</li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. Are dashboard values loaded dynamically from the database?</div>
+  <div class="qa-a">
+    Yes. KPI summary boxes and registration streams are queried live from MySQL tables on every dashboard load.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. Is access restricted to admin users?</div>
+  <div class="qa-a">
+    Yes. <code>require_admin()</code> guards the dashboard. Unauthorized students or guests are intercepted and served an HTTP 403 Forbidden alert.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. Are role-based menus working?</div>
+  <div class="qa-a">
+    Yes. The navigation bar conditionally renders administrative controls only when <code>$_SESSION['role'] === 'admin'</code>.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q4. Are important admin actions recorded in audit_logs?</div>
+  <div class="qa-a">
+    Yes. The helper <code>log_audit()</code> writes administrative events into the <code>audit_logs</code> table, visible via the dedicated Audit Log viewer.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Aggregating counts across multiple relational tables efficiently without slowing down dashboard rendering; preventing self-deactivation of logged-in administrative accounts.</li>
+  <li><strong>Learning Outcomes:</strong> Mastered SQL aggregation functions, administrative dashboard design, security audit logging, and role-based interface customization.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> Role-based Admin Dashboard with real-time KPI metrics, dynamic menu switching, user status moderation, and audit trail logging was successfully implemented.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+<!-- ================= PRACTICAL 15 ================= -->
+<h1 class="practical-title">Practical 15: Final Integration, Testing, Documentation, GitHub Submission, and Local Deployment</h1>
+
+<div class="aim-box">
+  <div class="aim-title">AIM:</div>
+  Integrate all modules into a single deployable StudentHub portal. Verify navigation, responsiveness, authentication, database operations, security checks, AJAX functionality, and documentation. Deploy locally using XAMPP/Apache virtual host and submit GitHub repository.
+</div>
+
+<h2 class="section-heading">1. Implementation Details</h2>
+<p>
+The final capstone practical unified all preceding 14 modules into a deployable application:
+</p>
+<ul>
+  <li><strong>Unified Portal Integration:</strong> Root landing page <code>index.php</code> ties together all modules with dynamic database telemetry, event highlights, external JSON FAQs, and quick links.</li>
+  <li><strong>Comprehensive Testing Suite:</strong> Verified zero PHP syntax errors across all 34 codebase scripts via PHP CLI linting. Verified cross-browser responsiveness on mobile, tablet, and desktop viewports.</li>
+  <li><strong>Security Verification:</strong> Validated CSRF tokens across all POST actions, 100% prepared statements preventing SQL injection, Bcrypt password hashing, session timeout enforcement, and upload directory script execution blocking.</li>
+  <li><strong>Local Deployment:</strong> Configured for deployment on Apache under XAMPP (<code>c:\xampp\htdocs\studenthub\</code>) with database seeds pre-configured in <code>sql/studenthub.sql</code>.</li>
+  <li><strong>Documentation & Git Version Control:</strong> Complete <code>README.md</code>, architecture diagrams, installation instructions, default credentials, and clean Git commits covering the full semester curriculum.</li>
+</ul>
+
+<h2 class="section-heading">2. Key Questions / Analysis / Interpretation</h2>
+<div class="qa-box">
+  <div class="qa-q">Q1. Are all pages properly linked and navigable?</div>
+  <div class="qa-a">
+    Yes. The global navigation bar, breadcrumbs, and inter-page links are verified with zero broken paths.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q2. Are sessions, roles, validations, and database operations working end-to-end?</div>
+  <div class="qa-a">
+    Yes. End-to-end user workflows—from registration and login to student CRUD, event registration, poster upload, and admin audit logging—operate without errors.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q3. Are security and accessibility checklists completed?</div>
+  <div class="qa-a">
+    Yes. Semantic landmarks, ARIA attributes, skip links, contrast ratios, CSRF tokens, Bcrypt hashing, and prepared statements satisfy all academic requirements.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q4. Is project documentation sufficient for installation and testing?</div>
+  <div class="qa-a">
+    Yes. The <code>README.md</code> provides step-by-step XAMPP setup instructions, database import commands, architecture diagrams, and default login credentials.
+  </div>
+</div>
+
+<div class="qa-box">
+  <div class="qa-q">Q5. Is the project repository clean and properly committed?</div>
+  <div class="qa-a">
+    Yes. The Git repository is structured with a clean commit history tracking all practical milestones.
+  </div>
+</div>
+
+<h2 class="section-heading">3. Challenges Faced & Learning Outcomes</h2>
+<ul>
+  <li><strong>Challenges Faced:</strong> Coordinating full-stack integration between static components, asynchronous AJAX endpoints, and stateful PHP sessions; conducting end-to-end regression testing.</li>
+  <li><strong>Learning Outcomes:</strong> Gained end-to-end mastery of full-stack web development: semantic HTML5, CSS Grid/Flexbox, JavaScript ES6+, PHP 8+, MySQL, REST APIs, web security, and deployment on Apache/XAMPP.</li>
+</ul>
+
+<div class="repo-footer">
+  <strong>Conclusion:</strong> The StudentHub portal was successfully integrated, tested, and deployed locally under XAMPP. All 15 practical requirements of the CHARUSAT ITUE203 syllabus have been completely fulfilled.<br>
+  <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
+</div>
+
+</body>
+</html>
