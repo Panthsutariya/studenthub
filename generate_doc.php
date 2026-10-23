@@ -237,16 +237,16 @@ In this practical, the foundational structure of the StudentHub Portal was imple
 <h2 class="section-heading">2. Evidence of Work (Sitemap & Wireframes)</h2>
 <?= imgTag('image1.png', 'Sitemap: Hierarchical Page Navigation Architecture') ?>
 
-<?= imgTag('image2.png', 'Wireframe 1: Student Dashboard - Quick Summary Statistics (CGPA, Attendance, Assignments)') ?>
-<?= imgTag('image3.png', 'Wireframe 2: Login Page - Centered Authentication Card with Email and Password Fields') ?>
-<?= imgTag('image4.png', 'Wireframe 3: Registration / Sign-up Page - Two-Column Student Input Fields') ?>
-<?= imgTag('image5.png', 'Wireframe 4: Course Information - Semester Curriculum and Subject Cards') ?>
-<?= imgTag('image6.png', 'Wireframe 5: Assignment Portal - Assessments Grid with Status Tags') ?>
-<?= imgTag('image7.png', 'Wireframe 6: Attendance Information - Overall Attendance with 80% Rule Indicator') ?>
-<?= imgTag('image8.png', 'Wireframe 7: Results & Transcripts - GPA Summary Boxes and Grades Table') ?>
-<?= imgTag('image9.png', 'Wireframe 8: Contact Us - Campus Address and Student Helpdesk Message Form') ?>
-<?= imgTag('image10.png', 'Wireframe 9: Student Profile - Student Avatar, Enrollment ID, and Academic Particulars') ?>
-<?= imgTag('image11.png', 'Wireframe 10: About Page - Technologies Used and Portal Vision') ?>
+<?= imgTag('wire1.png', 'Wireframe 1: Home Page', '650px', true, 'Wireframe 1: Student Dashboard - Quick Summary Statistics (CGPA, Attendance, Assignments)') ?>
+<?= imgTag('wire2.png', 'Wireframe 2: Login Page', '650px', true, 'Wireframe 2: Login Page - Centered Authentication Card with Email and Password Fields') ?>
+<?= imgTag('wire3.png', 'Wireframe 3: Student Profile', '650px', true, 'Wireframe 3: Registration / Sign-up Page - Two-Column Student Input Fields') ?>
+<?= imgTag('wire4.png', 'Wireframe 4: Course Registration', '650px', true, 'Wireframe 4: Course Information - Semester Curriculum and Subject Cards') ?>
+<?= imgTag('wire5.png', 'Wireframe 5: Time Table', '650px', true, 'Wireframe 5: Assignment Portal - Assessments Grid with Status Tags') ?>
+<?= imgTag('wire6.png', 'Wireframe 6: Attendance Tracker', '650px', true, 'Wireframe 6: Attendance Information - Overall Attendance with 80% Rule Indicator') ?>
+<?= imgTag('wire7.png', 'Wireframe 7: Exam Schedule', '650px', true, 'Wireframe 7: Results & Transcripts - GPA Summary Boxes and Grades Table') ?>
+<?= imgTag('wire8.png', 'Wireframe 8: Hostels Info', '650px', true, 'Wireframe 8: Contact Us - Campus Address and Student Helpdesk Message Form') ?>
+<?= imgTag('wire9.png', 'Wireframe 9: Notification Page', '650px', true, 'Wireframe 9: Student Profile - Student Avatar, Enrollment ID, and Academic Particulars') ?>
+<?= imgTag('wire10.png', 'Wireframe 10: Logout Page', '650px', true, 'Wireframe 10: About Page - Technologies Used and Portal Vision') ?>
 
 <h2 class="section-heading">3. Challenges Faced</h2>
 <p>
@@ -280,16 +280,16 @@ In this practical, the foundational structure of the StudentHub portal was devel
 </p>
 
 <h2 class="section-heading">2. Evidence of Work (Static HTML5 Screenshots)</h2>
-<?= imgTag('image12.png', 'Student Dashboard: Plain HTML structure with student stats and navigation links') ?>
-<?= imgTag('image13.png', 'Login Page: Unstyled form with email, password, and remember me checkbox') ?>
-<?= imgTag('image14.png', 'Register Page: Student registration form with input fields for personal and academic details') ?>
-<?= imgTag('image15.png', 'Contact Us Page: Message submission form and campus contact information') ?>
-<?= imgTag('image16.png', 'About Page: Mission, vision, and technical architecture specifications') ?>
-<?= imgTag('image17.png', 'Enrolled Courses Page: Course curriculum with subject credits and syllabus buttons') ?>
-<?= imgTag('image18.png', 'Attendance Page: Overall attendance percentage and subject-wise lecture counts') ?>
-<?= imgTag('image19.png', 'Assignments Page: Course assessments with deadline dates and action buttons') ?>
-<?= imgTag('image20.png', 'Academic Results & Transcripts: Semester GPA summary and grade table') ?>
-<?= imgTag('image21.png', 'Student Profile Page: Personal details and academic record table') ?>
+<?= imgTag('homeout.png', 'Home Page: Plain HTML structure', '650px', true, 'Student Dashboard: Plain HTML structure with student stats and navigation links') ?>
+<?= imgTag('loginout.png', 'Login Page: Unstyled form', '650px', true, 'Login Page: Unstyled form with email, password, and remember me checkbox') ?>
+<?= imgTag('studentprofileout.png', 'Student Profile: Plain HTML details', '650px', true, 'Register Page: Student registration form with input fields for personal and academic details') ?>
+<?= imgTag('courseregout.png', 'Course Registration: HTML Form', '650px', true, 'Contact Us Page: Message submission form and campus contact information') ?>
+<?= imgTag('timetableout.png', 'Time Table: HTML Table layout', '650px', true, 'About Page: Mission, vision, and technical architecture specifications') ?>
+<?= imgTag('attendanceout.png', 'Attendance: Plain HTML tracker', '650px', true, 'Enrolled Courses Page: Course curriculum with subject credits and syllabus buttons') ?>
+<?= imgTag('examscheduleout.png', 'Exam Schedule: Unstyled schedule table', '650px', true, 'Attendance Page: Overall attendance percentage and subject-wise lecture counts') ?>
+<?= imgTag('hostelsout.png', 'Hostels: Information layout', '650px', true, 'Assignments Page: Course assessments with deadline dates and action buttons') ?>
+<?= imgTag('notificationout.png', 'Notification: Campus notice list', '650px', true, 'Academic Results & Transcripts: Semester GPA summary and grade table') ?>
+<?= imgTag('logoutout.png', 'Logout: Session termination confirmation', '650px', true, 'Student Profile Page: Personal details and academic record table') ?>
 
 <h2 class="section-heading">3. Challenges Faced</h2>
 <p>
@@ -322,17 +322,17 @@ This practical focused on UI design and project organization. The flat file stru
 </p>
 
 <h2 class="section-heading">2. Evidence of Work (Responsive CSS Screenshots)</h2>
-<?= imgTag('image22.png', 'Landing Page: Polished hero section with feature cards and top navbar') ?>
-<?= imgTag('image23.png', 'Student Dashboard: Styled dashboard with KPI cards, announcements, and CSS Grid layout') ?>
-<?= imgTag('image24.png', 'Login Page: Centered authentication card with clean spacing and styled buttons') ?>
-<?= imgTag('image25.png', 'Sign-up Page: Responsive two-column form layout with modern input styling') ?>
-<?= imgTag('image26.png', 'Enrolled Courses: Multi-column responsive card grid for curriculum subjects') ?>
-<?= imgTag('image27.png', 'Assignments Page: Color-coded status badges and action cards') ?>
-<?= imgTag('image28.png', 'Attendance Tracker: Visual progress bars and eligibility status tags') ?>
-<?= imgTag('image29.png', 'Results & Transcripts: Modern summary KPI boxes and high-contrast table styling') ?>
-<?= imgTag('image30.png', 'Contact Us: Two-column responsive layout separating form from contact info') ?>
-<?= imgTag('image31.png', 'Profile Page: Academic particulars table with action buttons') ?>
-<?= imgTag('image32.png', 'About Page: Responsive mission, vision, and technology stack presentation') ?>
+<?= imgTag('homecssout.png', 'Home Page: Styled responsive layout', '650px', true, 'Landing Page: Polished hero section with feature cards and top navbar') ?>
+<?= imgTag('homecssout.png', 'Student Dashboard / Home View', '650px', true, 'Student Dashboard: Styled dashboard with KPI cards, announcements, and CSS Grid layout') ?>
+<?= imgTag('logincssout.png', 'Login Page: Styled CSS form card', '650px', true, 'Login Page: Centered authentication card with clean spacing and styled buttons') ?>
+<?= imgTag('studentprofilecssout .png', 'Student Profile: Modern card layout', '650px', true, 'Sign-up Page: Responsive two-column form layout with modern input styling') ?>
+<?= imgTag('courseregcssout.png', 'Course Registration: Styled input controls', '650px', true, 'Enrolled Courses: Multi-column responsive card grid for curriculum subjects') ?>
+<?= imgTag('timetablecssout.png', 'Time Table: Grid styling and alternating rows', '650px', true, 'Assignments Page: Color-coded status badges and action cards') ?>
+<?= imgTag('attendancecssout.png', 'Attendance: Styled table with progress badges', '650px', true, 'Attendance Tracker: Visual progress bars and eligibility status tags') ?>
+<?= imgTag('examschedulecssout .png', 'Exam Schedule: Responsive table design', '650px', true, 'Results & Transcripts: Modern summary KPI boxes and high-contrast table styling') ?>
+<?= imgTag('hostelscssout.png', 'Hostels: Two-column responsive card styling', '650px', true, 'Contact Us: Two-column responsive layout separating form from contact info') ?>
+<?= imgTag('notificationcssout .png', 'Notification: Styled card announcements', '650px', true, 'Profile Page: Academic particulars table with action buttons') ?>
+<?= imgTag('logoutcssout .png', 'Logout: Styled centered logout view', '650px', true, 'About Page: Responsive mission, vision, and technology stack presentation') ?>
 
 <h2 class="section-heading">3. Challenges Faced</h2>
 <p>
@@ -405,7 +405,7 @@ In Practical 3, moving the raw HTML into a structured directory architecture (PA
 </div>
 
 <div class="repo-footer">
-  <strong>Conclusion:</strong> The interactive UI features—including responsive hamburger navigation, persistent dark mode, and modal popups—were successfully integrated using JavaScript.<br>
+  <strong>Conclusion:</strong> The interactive UI featuresâ€”including responsive hamburger navigation, persistent dark mode, and modal popupsâ€”were successfully integrated using JavaScript.<br>
   <strong>Repository Link:</strong> <code>https://github.com/Dev-Jay99/WDF</code>
 </div>
 
